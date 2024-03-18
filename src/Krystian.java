@@ -1,5 +1,4 @@
 public class Krystian implements Uczen {
-
     @Override
     public void uczSie() {
         System.out.println("Ucze sie bo Monika mnie zmusza");
