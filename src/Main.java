@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 
 public class Main {
@@ -31,7 +30,6 @@ public class Main {
 
         for(Komputer k: komputers){
             System.out.println(k.getClass().getName());
-
         }
     }
 }
