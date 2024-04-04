@@ -1,9 +1,9 @@
-public interface Komputer extends Comparable{
+public interface Komputer extends Comparable<Komputer>{
     void uruchom();
     void zepsujSie();
 
     @Override
-    default int compareTo(Object o){
+    default int compareTo(Komputer o){
         int len = Math.max(o.getClass().getName().length(), this.getClass().getName().length());
         int result = 0;
         int index = 0;
